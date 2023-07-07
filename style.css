@@ -1,68 +1,90 @@
 body, ul {
-    margin: 0;
-    padding: 0;
-  }
+  margin: 0;
+  padding: 0;
+}
 
-  header {
-    background-color: #1db954;
-    color: white;
-    padding: 20px;
-    text-align: center;
-  }
+header {
+  background-color: #1db954;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
 
-  main {
-    padding: 20px;
-  }
+.navbar {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  background-color: #1db954;
+  padding: 10px;
+}
 
-  h1 {
-    margin-bottom: 20px;
-  }
+.navbar li {
+  margin-right: 10px;
+}
 
-  .section {
-    margin-bottom: 40px;
-  }
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+}
 
-  .section-header {
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
+.navbar li a:hover {
+  background-color: #198c3f;
+}
 
-  .song-list {
-    list-style-type: none;
-    padding: 0;
-  }
+main {
+  padding: 20px;
+}
 
-  .song-list-item {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-  }
+h1 {
+  margin-bottom: 20px;
+}
 
-  .song-list-item img {
-    width: 40px;
-    height: 40px;
-    margin-right: 10px;
-  }
+.section {
+  margin-bottom: 40px;
+}
 
-  .playlist-form {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-  }
+.section-header {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
 
-  .playlist-form input[type="text"] {
-    flex-grow: 1;
-    padding: 10px;
-  }
+.song-list {
+  list-style-type: none;
+  padding: 0;
+}
 
-  .playlist-form input[type="submit"] {
-    background-color: #1db954;
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    cursor: pointer;
-  }
+.song-list-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
 
-  .playlist-form input[type="submit"]:hover {
-    background-color: #198c3f;
-  }
+.song-list-item img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.playlist-form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.playlist-form input[type="text"] {
+  flex-grow: 1;
+  padding: 10px;
+}
+
+.playlist-form input[type="submit"] {
+  background-color: #1db954;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.playlist-form input[type="submit"]:hover {
+  background-color: #198c3f;
+}
